@@ -1,0 +1,170 @@
+html {height: 101%;}
+/*//////////////////////////////////////////////////Navigation////////////////////////////////////////////////////////*/
+.brand-logo{
+	margin-left:30px;
+	margin-top:5px;
+}
+nav{
+	background: #64C093;
+	font-family: 'Nunito', sans-serif;
+}
+.nav-items{
+	margin-right:20px;
+}
+.side-nav{
+	z-index: 3;
+}
+/*//////////////////////////////////////////////////Home Page Styling////////////////////////////////////////////////////////*/
+.homePage{
+	position:relative;
+	color:white;
+}
+.slider .indicators {
+	display:none;
+}
+/*///////////////////////////Header Text/Call to Action Styling///////////////////////*/
+.headerText{
+	padding-top:4%;
+	padding-bottom: 30px;
+}
+.h1{
+	font-size: 80px;
+	font-family: 'Nunito', sans-serif;
+}
+/*////////////////////////////////Search Form Styling///////////////////////*/
+#searchInput{
+	border: solid 5px #E3E3E3;
+	border-radius: 7px;
+	padding: 0px 0px 0px 10px;
+	background:rgba(158, 158, 158, 0.9);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+#searchIcon{
+	margin-left: 0px;
+	margin-bottom: 18px;
+	padding: 4px 5px 2px 5px;
+	font-size:40px;
+	border: solid 5px #64C093;
+	border-radius: 7px;
+	background: #64C093;
+}
+#searchBtn{
+	color:white;
+	background:none;
+	border:none;
+}
+#searchBtn:hover{
+	color:gray;
+}
+/*////////////////////////////////Background Image Styling///////////////////////*/
+.homePageImg{
+	margin-top: 0px;
+	margin-left: 0px;
+	z-index:-1;
+	position:absolute;
+}
+/*//////////////////////////////////////////////////Dropdown Panels Styling////////////////////////////////////////////////////////*/
+.panel{
+  display:none;
+  width:100%;
+  position:fixed;
+  z-index:3;
+  background:rgba(158, 158, 158, 0.92);
+  color:white;
+  padding-bottom:40px;
+  opacity: 0.99;
+}
+.panel-form{
+	width:70%;
+	
+}
+.panel-form .input{
+	border: solid 3px white;
+	border-radius: 5px;
+	padding: 0px 0px 0px 10px;
+	
+}
+.btn{
+	background: #64C093;
+	font-family: 'Nunito', sans-serif;
+}
+.btn:hover{
+	background: #64C093;
+	color:gray;
+}
+/*//////////////////////////////////////////////////Recipe Section Styling////////////////////////////////////////////////////////*/
+#filters{
+	background:#E3E3E3;
+	margin-top:0px;
+	margin-top:4.5%;
+}
+.filter_btn{
+	color:gray;
+}
+.active{
+	background:#64C093;
+	color:white;
+}
+
+/*//////////////////////////////////////////////////Recipe Page Styling////////////////////////////////////////////////////////*/
+#recipe-name{
+	font-family: 'Nunito', sans-serif;
+	color:gray;
+}
+/*better looking vertical spacing for the ingredient and direction list items*/
+		.collection-item.avatar {
+			min-height: auto;
+			padding-top: 2em;
+		    padding-bottom: 2em;
+		}
+
+/*on recipe page, have the ingredients go 3 per row on large enough screens*/
+		@media (min-width: 760px){
+		  #ingredient-container .collection-item.avatar {
+			width: calc(100% / 3);
+			float: left;
+		  }
+		}
+h4{
+	font-family: 'Nunito', sans-serif;
+	color:gray;
+	
+}
+.recipe-sub-h{
+	padding-left:20px;
+}
+#ready-in{
+	padding:20px 20px 0px 0px;
+}
+#serving-amount{
+	padding:0px 0px 0px 20px;
+}
+/*//////////////////////////////////////////////////Profile Page Styling////////////////////////////////////////////////////////*/
+.h3{
+	padding:20px 0px 20px 40px;
+	font-size:36px;
+	font-family: 'Nunito', sans-serif;
+	color:gray;
+}
+
+/*////////////////////////////////////////////////// IE Object Fit Fix ////////////////////////////////////////////////////////*/
+.custom-object-fit {
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+}
+
+.custom-object-fit img {
+    opacity: 0;
+ }
